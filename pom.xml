@@ -14,17 +14,17 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+</project>
 
 
-
-       <reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-report-plugin</artifactId>
-                <version>3.5.0</version>
-            </plugin>
-        </plugins>
-    </reporting>
+         <reporting>
+                 <plugins>
+                     <plugin>
+                         <groupId>org.apache.maven.plugins</groupId>
+                         <artifactId>maven-surefire-report-plugin</artifactId>
+                         <version>3.5.0</version>
+                     </plugin>
+                 </plugins>
+             </reporting>
 
 </project>
