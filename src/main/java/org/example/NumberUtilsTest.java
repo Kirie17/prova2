@@ -15,7 +15,7 @@ public class NumberUtilsTest {
     @Test
     public void testIsOdd() {
         NumberUtils utils = new NumberUtils();
-        assertFalse("5 não deveria ser um número par", utils.isEven(5))
+        assertFalse("5 não deveria ser um número par", utils.isEven(5));
     }
 }
 
